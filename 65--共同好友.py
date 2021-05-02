@@ -1,0 +1,5 @@
+freind1=set(input("請輸入A好友的數量:").split())
+freind2=set(input("請輸入B好友的數量:").split())
+CC=list(sorted(freind1 & freind2))
+DD=len(CC)
+print(DD)

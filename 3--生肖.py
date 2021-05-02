@@ -1,0 +1,25 @@
+AA=int(input("請輸入年分:"))
+if(AA%12==5):
+    print("牛","ox")
+elif(AA%12==6):
+    print("虎","tiger")
+elif(AA%12==7):
+    print("兔","rabbit")
+elif(AA%12==8):
+    print("龍","dragon")
+elif(AA%12==9):
+    print("蛇","snake")
+elif(AA%12==10):
+    print("馬","horse")
+elif(AA%12==11):
+    print("羊","sheep")
+elif(AA%12==0):
+    print("猴","monkey")
+elif(AA%12==1):
+    print("雞","chicken")
+elif(AA%12==2):
+    print("狗","dog")
+elif(AA%12==3):
+    print("豬","pig")
+elif(AA%12==4):
+    print("鼠","rat")
